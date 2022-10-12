@@ -1,55 +1,45 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { MAIN_PAGE, ABOUT_US } from '../../utils/path';
+import '../Header/Header.css';
+import { SearchOutlined } from '@ant-design/icons';
 
 const Header = () => {
 
-    const navItems = [
-        {
-            title: "О нас",
-            path: MAIN_PAGE,
-        },
-        {
-          title: "О нас",
-          path: MAIN_PAGE,
-        },
-        {
-          title: "О нас",
-          path: ABOUT_US ,
-        },
-      ];
       
   return (
-    <header className='header'>
-    <div className='container classes.headerInner'>
-      <div className='leftSideBlock'>
-        <div
-          className='burgerMenuBtn'
-        >
-          <i>
-            hello
-          </i>
-        </div>
-        <div className='headerLogo'>
-          <i>
-            theTech
-          </i>
-        </div>
-      </div>
-      <ul className='headerNavInner'>
-        {navItems.map((nav) => (
-          <li key={nav.path}>
-            <Link
-              to={nav.path}
-              title={nav.title}
-            >
-              {nav.title}
-            </Link>
+    <nav className="navigation">
+      <div className="container">
+      <a href="/" className="brand-name">
+        TheTech
+      </a>
+     
+      <div
+        className="navigation-menu">
+        <ul>
+          <li>
+            <a href="/home">О НАС</a>
           </li>
-        ))}
-      </ul>
-    </div>
-  </header>
+          <li>
+            <a href="/about">НАШИ РАБОТЫ</a>
+          </li>
+          <li>
+            <a href="/contact">ПАРТНЕРЫ</a>
+          </li>
+          <li>
+            <a href="/contact">НАША КОМАНДА</a>
+          </li>
+          <li>
+            <a href="/contact">КОНТАКТЫ</a>
+          </li>
+          <li>
+          <SearchOutlined />
+          </li>
+          <li>
+            <span>ENG</span>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
   )
 }
 

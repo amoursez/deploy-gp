@@ -1,0 +1,21 @@
+.navigation {
+  width: 100%;
+  height: 70px;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navigation .container {
+  text-decoration: none;
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+}
+/*# sourceMappingURL=Header.css.map */
