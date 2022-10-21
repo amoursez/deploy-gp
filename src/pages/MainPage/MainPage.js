@@ -9,6 +9,7 @@ import AboutUsPage from '../AboutUsPage/AboutUsPage'
 
 const MainPage = () => {
   return (
+    <div>
     <div className='section  container'>
      <div className='news'>
       <h3>ПОСЛЕДНИЕ НОВОСТИ</h3>
@@ -34,6 +35,9 @@ const MainPage = () => {
       <NewsImage/>
       </div>
      </div>
+     
+    </div>
+    <AboutUsPage/>
     </div>
   )
 }
