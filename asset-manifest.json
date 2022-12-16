@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/the-tech/static/css/main.3c113df5.css",
-    "main.js": "/the-tech/static/js/main.81737c3a.js",
-    "static/media/newsImage.png": "/the-tech/static/media/newsImage.51639fe5351f651c0a31.png",
-    "static/media/girl.png": "/the-tech/static/media/girl.d116c37f6d8f5387ebee.png",
-    "static/media/GTEestiProText-Thin.ttf": "/the-tech/static/media/GTEestiProText-Thin.faa1ec0af74ecb3f27bc.ttf",
-    "static/media/GTEestiProDisplay-Bold.ttf": "/the-tech/static/media/GTEestiProDisplay-Bold.5a474c8df025500a6adf.ttf",
-    "static/media/GTEestiProDisplay-UltraLight.ttf": "/the-tech/static/media/GTEestiProDisplay-UltraLight.2f943b67a59bfdce8e61.ttf",
-    "static/media/GTEestiProDisplay-Regular.ttf": "/the-tech/static/media/GTEestiProDisplay-Regular.1e3500657ff00a57a825.ttf",
-    "static/media/newsImage2.png": "/the-tech/static/media/newsImage2.f3ae80def9bc88cce04b.png",
-    "index.html": "/the-tech/index.html",
-    "main.3c113df5.css.map": "/the-tech/static/css/main.3c113df5.css.map",
-    "main.81737c3a.js.map": "/the-tech/static/js/main.81737c3a.js.map"
+    "main.css": "/deploy-gp/static/css/main.9220d7fb.css",
+    "main.js": "/deploy-gp/static/js/main.4cc4594b.js",
+    "static/media/newsImage.png": "/deploy-gp/static/media/newsImage.51639fe5351f651c0a31.png",
+    "static/media/girl.png": "/deploy-gp/static/media/girl.d116c37f6d8f5387ebee.png",
+    "static/media/GTEestiProText-Thin.ttf": "/deploy-gp/static/media/GTEestiProText-Thin.faa1ec0af74ecb3f27bc.ttf",
+    "static/media/GTEestiProDisplay-Bold.ttf": "/deploy-gp/static/media/GTEestiProDisplay-Bold.5a474c8df025500a6adf.ttf",
+    "static/media/GTEestiProDisplay-UltraLight.ttf": "/deploy-gp/static/media/GTEestiProDisplay-UltraLight.2f943b67a59bfdce8e61.ttf",
+    "static/media/GTEestiProDisplay-Regular.ttf": "/deploy-gp/static/media/GTEestiProDisplay-Regular.1e3500657ff00a57a825.ttf",
+    "static/media/newsImage2.png": "/deploy-gp/static/media/newsImage2.f3ae80def9bc88cce04b.png",
+    "index.html": "/deploy-gp/index.html",
+    "main.9220d7fb.css.map": "/deploy-gp/static/css/main.9220d7fb.css.map",
+    "main.4cc4594b.js.map": "/deploy-gp/static/js/main.4cc4594b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c113df5.css",
-    "static/js/main.81737c3a.js"
+    "static/css/main.9220d7fb.css",
+    "static/js/main.4cc4594b.js"
   ]
 }
