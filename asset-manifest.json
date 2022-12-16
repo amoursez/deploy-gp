@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44581cee.css",
+    "main.js": "/static/js/main.d7c2296b.js",
+    "static/media/newsImage.png": "/static/media/newsImage.51639fe5351f651c0a31.png",
+    "static/media/girl.png": "/static/media/girl.d116c37f6d8f5387ebee.png",
+    "static/media/GTEestiProText-Thin.ttf": "/static/media/GTEestiProText-Thin.faa1ec0af74ecb3f27bc.ttf",
+    "static/media/GTEestiProDisplay-Bold.ttf": "/static/media/GTEestiProDisplay-Bold.5a474c8df025500a6adf.ttf",
+    "static/media/GTEestiProDisplay-UltraLight.ttf": "/static/media/GTEestiProDisplay-UltraLight.2f943b67a59bfdce8e61.ttf",
+    "static/media/GTEestiProDisplay-Regular.ttf": "/static/media/GTEestiProDisplay-Regular.1e3500657ff00a57a825.ttf",
+    "static/media/newsImage2.png": "/static/media/newsImage2.f3ae80def9bc88cce04b.png",
+    "index.html": "/index.html",
+    "main.44581cee.css.map": "/static/css/main.44581cee.css.map",
+    "main.d7c2296b.js.map": "/static/js/main.d7c2296b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44581cee.css",
+    "static/js/main.d7c2296b.js"
+  ]
+}
