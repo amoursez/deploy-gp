@@ -1,12 +1,14 @@
 @import url('../../index.css');
 .section{
+    margin-top:70px ;
     width: 100%;
     display: flex;
-    margin-bottom: 270px;
+    
     .news{
         display: flex;
         flex-direction: column;
         width: 380px;
+        gap: 55px;
     
         >h3{
             color: #0056FF;
@@ -48,13 +50,18 @@ font-size: 20px;
 line-height: 23px;
 
 }
-
         }
-        
         .additional-news{
             width: 1110px;
             margin-top: 30px;
             display: inline-flex;
         }
     }
+   .all-news{
+    margin-top: 80px;
+    margin-bottom: 0 !important;
+    >img{
+        width: 179px;
+    }
+   }
 }
