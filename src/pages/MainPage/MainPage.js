@@ -17,9 +17,11 @@ const MainPage = () => {
      <NewsItem/>
      <NewsItem/>
      <NewsItem/>
+     <div>
      <p className='all-news'>ВСЕ НОВОСТИ</p>
+     <img src={line} alt="line"/>
      </div>
-    
+     </div>
      <div className='main-news'>
       <img src={BigNewsImage} />
       <div className='text'>
@@ -35,7 +37,6 @@ const MainPage = () => {
       <NewsImage/>
       </div>
      </div>
-     
     </div>
     <AboutUsPage/>
     </div>

@@ -8,8 +8,8 @@ import MainPage from '../pages/MainPage/MainPage';
 const MyRoutes = () => {
   return (
     <BrowserRouter>
-{/*         <Header/>
- */}        <Routes>
+      <Header/>
+        <Routes>
             <Route path='/' element={<MainPage />}/>
             <Route path='/about' element={<AboutUsPage />} />
         </Routes>

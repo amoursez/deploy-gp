@@ -1,48 +1,45 @@
-import React from 'react';
-import '../Header/Header.css';
-import { SearchOutlined } from '@ant-design/icons';
+import { CloseOutlined, MenuOutlined, SearchOutlined } from "@ant-design/icons";
+import { useRef } from "react";
+import logo from '../../assets/logo.png';
+import "./Header.scss";
 
-const Header = () => {
+function Navbar() {
+	const navRef = useRef();
 
-      
-  return (
-    <nav className="navigation">
-      <div className="container">
-      <a href="/" className="brand-name">
-        TheTech
-      </a>
-     
-      <div
-        className="navigation-menu">
-        <ul>
-          <li>
-            <a href="/home">О НАС</a>
-          </li>
-          <li>
-            <a href="/about">НАШИ РАБОТЫ</a>
-          </li>
-          <li>
-            <a href="/contact">ПАРТНЕРЫ</a>
-          </li>
-          <li>
-            <a href="/contact">НАША КОМАНДА</a>
-          </li>
-          <li>
-            <a href="/contact">КОНТАКТЫ</a>
-          </li>
-          <li>
-          <SearchOutlined />
-          </li>
-          <li>
-            <span>ENG</span>
-          </li>
-        </ul>
-      </div>
-      </div>
-    </nav>
-  )
+	const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+	};
+
+	return (
+    <div className="nav">
+		<header>
+			<img className="logo" src={logo} alt="logo" />
+			<nav ref={navRef}>
+				<a href="/#">О НАС</a>
+				<a href="/#">НАШИ РАБОТЫ</a>
+				<a href="/#">ПАРТНЕРЫ</a>
+				<a href="/#">НАША КОМАНДА</a>
+        <a href="/#">КОНТАКТЫ</a>
+        <div className="search-lang">
+        <span className="search">
+        <SearchOutlined />
+        </span>
+        <a href="/#">ENG</a>
+        </div>
+				<button
+					className="nav-btn nav-close-btn"
+					onClick={showNavbar}>
+					<CloseOutlined />
+				</button>
+			</nav>
+			<button className="nav-btn" onClick={showNavbar}>
+      <MenuOutlined />
+			</button>
+		</header>
+    </div>
+	);
 }
 
-export default Header
+export default Navbar;
 
 
