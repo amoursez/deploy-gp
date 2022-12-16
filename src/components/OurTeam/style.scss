@@ -1,0 +1,17 @@
+.team{
+    display: flex;
+    justify-content: space-between;
+    .team-item{
+    img{
+        width: 400px;
+        height: 500px;
+    }
+}
+}
+p{
+    font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+margin: 0;
+}
