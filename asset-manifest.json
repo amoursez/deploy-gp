@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deploy-gp/static/css/main.c3e468b5.css",
-    "main.js": "/deploy-gp/static/js/main.9963a8ba.js",
+    "main.js": "/deploy-gp/static/js/main.ec7ee255.js",
     "static/media/newsImage.png": "/deploy-gp/static/media/newsImage.51639fe5351f651c0a31.png",
     "static/media/girl.png": "/deploy-gp/static/media/girl.d116c37f6d8f5387ebee.png",
     "static/media/GTEestiProText-Thin.ttf": "/deploy-gp/static/media/GTEestiProText-Thin.faa1ec0af74ecb3f27bc.ttf",
@@ -11,10 +11,10 @@
     "static/media/newsImage2.png": "/deploy-gp/static/media/newsImage2.f3ae80def9bc88cce04b.png",
     "index.html": "/deploy-gp/index.html",
     "main.c3e468b5.css.map": "/deploy-gp/static/css/main.c3e468b5.css.map",
-    "main.9963a8ba.js.map": "/deploy-gp/static/js/main.9963a8ba.js.map"
+    "main.ec7ee255.js.map": "/deploy-gp/static/js/main.ec7ee255.js.map"
   },
   "entrypoints": [
     "static/css/main.c3e468b5.css",
-    "static/js/main.9963a8ba.js"
+    "static/js/main.ec7ee255.js"
   ]
 }
